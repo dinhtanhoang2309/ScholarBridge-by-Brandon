@@ -1,0 +1,472 @@
+// Central Verified Achievement Archive for ScholarBridge by Brandon
+// Contains all documented CV achievements with accurate dates, organizations, categories, and evidence links
+
+export const ACHIEVEMENTS = [
+  // Scholarships & Admissions
+  {
+    id: "knb-scholarship-2024",
+    title: "KNB Indonesian Government Scholarship",
+    category: "scholarships",
+    categoryLabel: "Scholarships & Admissions",
+    organization: "Ministry of Education & Culture, Republic of Indonesia",
+    date: "July 2024 – Present",
+    status: "Awarded & Currently Enrolled",
+    highlight: true,
+    description: "Fully funded Indonesian Government Scholarship recipient in Economic Development at Universitas Wijaya Kusuma Surabaya. Sole Vietnamese recipient among 30 candidates selected globally.",
+    evidenceUrl: "https://docs.google.com/document/d/1huVeYgwup_3405lwShDXmxKSoJ61-rjD6BvAR2y4VxI/edit?tab=t.0"
+  },
+  {
+    id: "fulbright-triple-admission",
+    title: "Fulbright University Vietnam Triple Admission",
+    category: "scholarships",
+    categoryLabel: "Scholarships & Admissions",
+    organization: "Fulbright University Vietnam",
+    date: "2022",
+    status: "Three Consecutive Admissions",
+    highlight: true,
+    description: "Earned three consecutive admissions to Fulbright University Vietnam, recognized for academic excellence, intellectual curiosity, and community leadership.",
+    evidenceUrl: "https://drive.google.com/file/d/1P-_QEe0Ak-1Vtf28aavg6e1SW1eGgbdo/view"
+  },
+  {
+    id: "utoronto-admission-2024",
+    title: "University of Toronto Undergraduate Admission",
+    category: "scholarships",
+    categoryLabel: "Scholarships & Admissions",
+    organization: "University of Toronto, Canada",
+    date: "April 2024",
+    status: "Offered Admission",
+    highlight: false,
+    description: "Received undergraduate admission to Canada's leading research university, reflecting a competitive international profile in social sciences and development.",
+    evidenceUrl: "https://docs.google.com/document/d/1jhrN8HIBk-mawXCwxkAKMLojCTrT0A4pPnvfOmeWLDg/edit?tab=t.0"
+  },
+  {
+    id: "kazakh-scholarship-2024",
+    title: "Kazakh Government Scholarship Recognition",
+    category: "scholarships",
+    categoryLabel: "Scholarships & Admissions",
+    organization: "L. N. Gumilyov Eurasian National University, Kazakhstan",
+    date: "May 2024",
+    status: "Scholarship & Admission Offer",
+    highlight: false,
+    description: "Offered government scholarship admission for international undergraduate study in Kazakhstan under bilateral education agreements.",
+    evidenceUrl: "https://drive.google.com/file/d/1UjtVmSk6eqfvO-5t3e5Sb-RyTlXJtWfI/view"
+  },
+  {
+    id: "iccr-delhi-2024",
+    title: "ICCR Indian Government Scholarship (Provisional)",
+    category: "scholarships",
+    categoryLabel: "Scholarships & Admissions",
+    organization: "Indian Council for Cultural Relations & University of Delhi",
+    date: "May 2024",
+    status: "Provisional Admission (B.Com)",
+    highlight: false,
+    description: "Awarded provisional admission to the Bachelor of Commerce programme at the University of Delhi for the 2024–2025 academic session under the ICCR scholarship scheme.",
+    evidenceUrl: "https://drive.google.com/file/d/1oSyo_7dcr6jU8WToA8xkxehUYgRzAOGI/view"
+  },
+  {
+    id: "mext-japan-2025",
+    title: "MEXT Japanese Government Scholarship Semi-Finalist",
+    category: "scholarships",
+    categoryLabel: "Scholarships & Admissions",
+    organization: "Embassy of Japan in Vietnam / MEXT",
+    date: "2025",
+    status: "Top 32 Semi-Finalist in Vietnam",
+    highlight: true,
+    description: "Advanced to the Top 32 nationwide semi-finalists across Vietnam in the rigorous Japanese Government (MEXT) Undergraduate Scholarship selection process.",
+    evidenceUrl: "https://drive.google.com/file/d/1ZSBx0uDetLiAxbVvSC5uBDNemo4j70ex/view"
+  },
+  {
+    id: "samsun-scholarship-2024",
+    title: "Samsun University Government Scholarship (Declined)",
+    category: "scholarships",
+    categoryLabel: "Scholarships & Admissions",
+    organization: "Samsun University, Türkiye",
+    date: "August 2024",
+    status: "Awarded (Declined) — GPA 27.5/30",
+    highlight: false,
+    description: "Offered a fully funded Bachelor's scholarship in International Trade and Business with an evaluation GPA of 27.5/30; declined to pursue Economic Development in Indonesia.",
+    evidenceUrl: "https://drive.google.com/file/d/1eRp-WLYNooRW04MqBhLtdpEWvImsnv29/view"
+  },
+  {
+    id: "romanian-programme-2024",
+    title: "Romanian Government Scholarship Selection Process",
+    category: "scholarships",
+    categoryLabel: "Scholarships & Admissions",
+    organization: "Ministry of Foreign Affairs, Romania",
+    date: "August 2024",
+    status: "Documented Application Archive",
+    highlight: false,
+    description: "Documented entry in international scholarship candidate records for Romanian European undergraduate opportunities.",
+    evidenceUrl: "https://docs.google.com/document/d/13RTyWa8Pzu_OM0zq1c-f1M0BT5K2rZmY4Zyvpn6apeE/edit"
+  },
+
+  // Mentorship & Case Studies
+  {
+    id: "japan-youth-summit-first-prize",
+    title: "First Prize Mentor — Japan Youth Summit 2026",
+    category: "mentorship",
+    categoryLabel: "Mentorship & Impact",
+    organization: "Youth Break the Boundaries Foundation & Japan Youth Summit",
+    date: "April – May 2026",
+    status: "First Prize Team Mentorship",
+    highlight: true,
+    description: "Mentored the Myanmar youth innovation team (Project SHWEPHYYA) from ideation to winning First Prize. Guided circular waste management framework connecting plastic recovery, photobioreactors, and SDG 11 in Yangon.",
+    evidenceUrl: "https://drive.google.com/file/d/1K5xTL2POI-vcZFP3XVFP76yT6nQ8UdF9/view?usp=sharing"
+  },
+  {
+    id: "una-indonesia-finance-mentor",
+    title: "Vice Manager, Finance Team & Mentorship",
+    category: "mentorship",
+    categoryLabel: "Mentorship & Impact",
+    organization: "United Nations Association Indonesia (PBB Indonesia)",
+    date: "August 2025 – Present",
+    status: "Active Leadership & Mentoring",
+    highlight: true,
+    description: "Leads regular mentorship sessions guiding participants in fundraising strategies, financial feasibility analysis, merchandise initiatives, and sustainable campaign modeling.",
+    evidenceUrl: "https://docs.google.com/document/d/1KQbRNPeufEmWgP0GiS37YvXvv3HVcBp3A9kzLmgNQQs/edit?tab=t.0"
+  },
+
+  // Academic & Competition Awards
+  {
+    id: "micebis-best-presenter",
+    title: "Best Presenter — MICEBIS II Essay Competition",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "MICEBIS Academic Committee",
+    date: "27 November 2025",
+    status: "Best Presenter Award",
+    highlight: true,
+    description: "Recognized as Best Presenter for research paper: 'Petrodollar–Green Innovation Nexus: A Qualitative Meta-Analysis and Triple Helix Framework for Green Investment in Resource-Rich Economies.'",
+    evidenceUrl: "https://l1nk.dev/lot276a"
+  },
+  {
+    id: "goethe-ambassador-prize",
+    title: "Ambassador Prize — Science Journal Writing Ambassador",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "Goethe-Institut Hanoi & 2030 Youth Force Vietnam",
+    date: "2022",
+    status: "Ambassador Prize",
+    highlight: true,
+    description: "Awarded Ambassador Prize for science communication essays focusing on STEM accessibility and educational equity for marginalized youth communities.",
+    evidenceUrl: "https://docs.google.com/document/d/1BvYwWkppJAfAPloIt-3t_8yzOlrGmD0-lwRiSL1pJm0/edit?tab=t.0"
+  },
+  {
+    id: "model-aipa-best-delegate",
+    title: "Best Delegate — Model AIPA 2025",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "ASEAN Inter-Parliamentary Assembly Simulation",
+    date: "2025",
+    status: "Best Delegate",
+    highlight: true,
+    description: "Awarded Best Delegate for championing inclusive regional education policies across Southeast Asia, with proposed draft resolutions adopted by 80% of participating member states.",
+    evidenceUrl: "https://docs.google.com/document/d/1-fxpD6cAaLSLnlf0OcGj_0AZl3QFObGvMr4989LLESE/edit?tab=t.0"
+  },
+  {
+    id: "model-aipa-best-position-paper",
+    title: "Best Position Paper — Model AIPA 2025",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "ASEAN Inter-Parliamentary Assembly Simulation",
+    date: "2025",
+    status: "Team Award (Team Lead)",
+    highlight: false,
+    description: "Led a three-member delegation that earned the Best Position Paper award for rigorous policy research on cross-border economic integration and educational resilience.",
+    evidenceUrl: "https://docs.google.com/document/d/1-fxpD6cAaLSLnlf0OcGj_0AZl3QFObGvMr4989LLESE/edit?tab=t.0"
+  },
+  {
+    id: "unesa-summer-course-triple-award",
+    title: "Best Speaker, Best Team & Best Participant — UNESA–Equity LPDP",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "Universitas Negeri Surabaya & LPDP Indonesia",
+    date: "February 2026",
+    status: "Triple Distinction",
+    highlight: true,
+    description: "Achieved unprecedented triple distinction (Best Speaker, Best Team, and Best Participant) among 70 international delegates from 8 countries at the SDGs & STEM International Summer Course.",
+    evidenceUrl: "https://docs.google.com/document/d/1qAd7rFZFnNYVatoNdULARfAS6U5c-8k1V8qmJ5TePm8/edit?usp=sharing"
+  },
+  {
+    id: "isvmp-outstanding-delegate",
+    title: "Most Outstanding Delegate — ISVMP 2024",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "Office of International Affairs, UPN Veteran Yogyakarta",
+    date: "2024",
+    status: "Most Outstanding Delegate",
+    highlight: false,
+    description: "Recognized as Most Outstanding Delegate for active diplomacy, research presentation, and cross-cultural leadership during the International Student Virtual Mobility Program.",
+    evidenceUrl: "https://docs.google.com/document/d/1v1Fd4T17Acj6MSzFQ7_3U4juuySXw0iZjoDDCHt-HcA/edit?tab=t.0"
+  },
+  {
+    id: "quiet-bass-notes-first-prize",
+    title: "First Prize — 'The Quiet Bass Notes' Community Impact Competition",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "Xoxoedu Vietnam",
+    date: "December 2022",
+    status: "First Prize Winner",
+    highlight: false,
+    description: "Earned First Prize for community project proposal addressing educational barriers and social integration among disadvantaged secondary school students.",
+    evidenceUrl: "https://docs.google.com/document/d/1SgkamZ8rCvVeZuRoM4PZJ_g2sZiVHV249SeBGwyD6mI/edit"
+  },
+  {
+    id: "provincial-literature-awards",
+    title: "Provincial Literature Excellence Awards (Lam Dong)",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "Department of Education & Training, Lam Dong Province, Da Lat",
+    date: "2019 – 2022",
+    status: "Consolation (2019), 3rd Prize (2021), 2nd Prize (2022)",
+    highlight: false,
+    description: "Three consecutive podium rankings in the Provincial Examination for Excellent Students in Literature during high school at Thang Long High School for the Gifted, Da Lat.",
+    evidenceUrl: "https://docs.google.com/document/d/1mhxJOg0REywymqM7AKU85wii4_qGO_cP_CNhkq0R5Y4/edit?tab=t.0"
+  },
+  {
+    id: "future-ceo-semi-finalist",
+    title: "Semi-Finalist — Future CEO 2024",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "Future CEO Academic Committee",
+    date: "2024",
+    status: "Semi-Finalist (1,000+ Applicants)",
+    highlight: false,
+    description: "Selected among the top applicants nationwide out of more than 1,000 university candidates in business case resolution and executive strategy.",
+    evidenceUrl: "https://docs.google.com/document/d/1N7FPc7BImnYU_9PLHY4i_syCB4EU0Wt0zu1fkXpqmiQ/edit"
+  },
+  {
+    id: "acca-futurist-top30",
+    title: "Top 30 Finalist — ACCA Futurist Scholarship 2024",
+    category: "awards",
+    categoryLabel: "Academic & Competition Awards",
+    organization: "Association of Chartered Certified Accountants (ACCA)",
+    date: "2024",
+    status: "Top 30 Finalist",
+    highlight: false,
+    description: "Selected into the Top 30 Finalists nationwide for financial acumen, strategic vision, and sustainability governance.",
+    evidenceUrl: "https://docs.google.com/document/d/1gB3R6-bju7kRdg_D31bpxJwqbr0boqslrm4weaImnmM/edit"
+  },
+
+  // International Programmes & Conferences
+  {
+    id: "nus-asean-symposium-2026",
+    title: "ASEAN Symposium for Youth Leaders 2026 Delegate",
+    category: "programmes",
+    categoryLabel: "International Programmes",
+    organization: "Lee Kuan Yew School of Public Policy, National University of Singapore",
+    date: "10 – 12 September 2026",
+    status: "Selected Youth Leader",
+    highlight: true,
+    description: "Selected as youth leader representing Vietnam and regional youth at NUS LKYSPP for high-level dialogues on regional governance, policy innovation, and economic cooperation.",
+    evidenceUrl: "https://docs.google.com/document/d/1xXTEpxWkz61I5phTHFqam4xTXcn5NTpG94Hl0Ia1tWA/edit?usp=sharing"
+  },
+  {
+    id: "cop31-simulation-research",
+    title: "COP31 Simulation Fellow & Ocean Just Transition Research",
+    category: "programmes",
+    categoryLabel: "International Programmes",
+    organization: "The British University in Egypt & UNDP Egypt",
+    date: "July 2026",
+    status: "Climate Diplomacy Fellow",
+    highlight: true,
+    description: "Completed climate negotiation training and authored research on 'Ocean Just Transition in ASEAN' based on a field survey of 22 ASEAN youth on coastal livelihoods.",
+    evidenceUrl: "https://drive.google.com/file/d/1svRjypPPh3WCAVtzshFU8SNlStOOWF36/view?usp=sharing"
+  },
+  {
+    id: "ai-law-colloquium-2026",
+    title: "2nd International Student Colloquium on AI & Law",
+    category: "programmes",
+    categoryLabel: "International Programmes",
+    organization: "Faculty of Law, Universitas Airlangga, Surabaya",
+    date: "August 2026",
+    status: "1 of 10 International Delegates",
+    highlight: false,
+    description: "Presented research examining AI-driven environmental compliance, blockchain transparency, and regional data-center regulation across ASEAN member states.",
+    evidenceUrl: "https://docs.google.com/document/d/1KCv7qpZkUbrixiksXILx85T6V1M0008nJrKY6ChQ_uM/edit?usp=sharing"
+  },
+  {
+    id: "undp-bias-delhi-2025",
+    title: "UNDP & BIAS 'Beyond Intent' SDG 12 Workshop Delegate",
+    category: "programmes",
+    categoryLabel: "International Programmes",
+    organization: "United Nations Development Programme & BIAS, New Delhi, India",
+    date: "June 2025",
+    status: "1 of 11 Asia-Pacific Delegates",
+    highlight: true,
+    description: "Represented Vietnam as 1 of only 11 delegates across Asia-Pacific working on sustainable production, behavioral insights, and circular economy roadmaps.",
+    evidenceUrl: "https://docs.google.com/document/d/151ieFk51GXUPAfrfqBkrNpnlAcSjaCMDWjJq7tAKizM/edit?usp=sharing"
+  },
+  {
+    id: "world-bank-summit-2026",
+    title: "World Bank Group Youth Summit 2026 Delegate",
+    category: "programmes",
+    categoryLabel: "International Programmes",
+    organization: "World Bank Group, Washington D.C. (Online)",
+    date: "2026",
+    status: "Selected Delegate (~10,000 Global Participants)",
+    highlight: false,
+    description: "Participated in global discussions on 'FutureWorks: Designing Jobs for the Digital Age' addressing youth employment vulnerabilities and digital skills development.",
+    evidenceUrl: "https://docs.google.com/document/d/1xspqHTs-Pp-jmLWjahflRvwPV46Q0dH78lBmir7sKJA/edit?usp=sharing"
+  },
+  {
+    id: "satyarthi-summer-school-2025",
+    title: "Satyarthi Summer School Changemaker Fellow",
+    category: "programmes",
+    categoryLabel: "International Programmes",
+    organization: "Kailash Satyarthi Children's Foundation, India",
+    date: "June – July 2025",
+    status: "25 Selected from 1,200+ Applicants (22 Countries)",
+    highlight: true,
+    description: "Selected into an elite cohort of 25 global changemakers founded by Nobel Peace Laureate Kailash Satyarthi, focusing on child rights protection and policy advocacy.",
+    evidenceUrl: "https://docs.google.com/document/d/1w3VYcutTI9RGlPtRYImEfK9es-ED5KV_7OYy-TLkYqg/edit?usp=sharing"
+  },
+  {
+    id: "asean-ipr-ground-zero",
+    title: "ASEAN-IPR Ground Zero Youth Peace Dialogue",
+    category: "programmes",
+    categoryLabel: "International Programmes",
+    organization: "ASEAN Institute for Peace and Reconciliation",
+    date: "May 2026",
+    status: "Selected Youth Participant (22 Regional Youth)",
+    highlight: false,
+    description: "Engaged in specialized multilateral dialogues on youth peacebuilding, violent radicalization prevention, and community resilience frameworks.",
+    evidenceUrl: "https://drive.google.com/file/d/1E2antTFZJjG7_-gZz12S_tk1GkO9l4-0/view?usp=sharing"
+  },
+  {
+    id: "ocean-scouts-ipb",
+    title: "OCEAN SCOUTS Summer Course Fellow",
+    category: "programmes",
+    categoryLabel: "International Programmes",
+    organization: "IPB University, Bogor, Indonesia",
+    date: "July 2025",
+    status: "Fellow & Field Researcher",
+    highlight: false,
+    description: "Fieldwork on marine biodiversity conservation, blue carbon ecosystems, and coastal sustainable livelihoods in West Java.",
+    evidenceUrl: "https://docs.google.com/document/d/1BBkaHkjDfk11qWeYMQrwudVoeeTYeZCqX6EzClL5Eig/edit"
+  },
+
+  // Leadership & Community Projects
+  {
+    id: "thalavina-project-founder",
+    title: "Founder — Thalavina Project",
+    category: "leadership",
+    categoryLabel: "Leadership & Projects",
+    organization: "Thalavina (Vietnam – Indonesia Youth Initiative)",
+    date: "June 2026 – Present",
+    status: "Founder & Executive Director",
+    highlight: true,
+    description: "Founded youth-led bilateral initiative dedicated to ocean conservation, blue economy advocacy, and coastal community support. Reached 500+ active followers in the first two months.",
+    evidenceUrl: "https://dinhtanhoang2309.github.io/THALAVINA-WEB/"
+  },
+  {
+    id: "virtual-education-expo-2022",
+    title: "Lead Organizer — Virtual Education Expo 2022",
+    category: "leadership",
+    categoryLabel: "Leadership & Projects",
+    organization: "Virtual Education Expo Organizing Committee",
+    date: "2022",
+    status: "Best Active Team Award (National)",
+    highlight: true,
+    description: "Directed organizing committee impacting 1,000+ high school students across 17 provinces in Vietnam. Launched 3 non-profit partnerships to mentor disadvantaged students toward international university admissions.",
+    evidenceUrl: "https://docs.google.com/document/d/1SgkamZ8rCvVeZuRoM4PZJ_g2sZiVHV249SeBGwyD6mI/edit"
+  },
+  {
+    id: "lang-xang-chuyen-van",
+    title: "Project Lead — Lăng xăng cùng Chuyên Văn",
+    category: "leadership",
+    categoryLabel: "Leadership & Projects",
+    organization: "Lăng xăng cùng Chuyên Văn",
+    date: "August 2019 – Present",
+    status: "Founder & Lead",
+    highlight: false,
+    description: "Recruited, trained, and managed 50+ volunteers and student creators; devised three major marketing campaigns supporting literature education across central Vietnam.",
+    evidenceUrl: "https://www.facebook.com/langxangcungchuyenvan/"
+  },
+  {
+    id: "sea-turtle-conservation-iucn",
+    title: "Sea Turtle Conservation Volunteer",
+    category: "leadership",
+    categoryLabel: "Leadership & Projects",
+    organization: "IUCN Vietnam & Côn Đảo National Park",
+    date: "July 2025",
+    status: "12-Day Field Conservationist",
+    highlight: true,
+    description: "12-day immersive field programme in Côn Đảo archipelago patrolling night nesting grounds, protecting vulnerable sea turtle clutches, and safely guiding hatchlings to sea.",
+    evidenceUrl: "https://docs.google.com/document/d/1SdNmFtrA4cai9BCmBGHUF9OqV8ZiD_VJlL-zZE3lEso/edit"
+  },
+  {
+    id: "asean-1967-fellow",
+    title: "ASEAN1967 Entrepreneurship Fellow",
+    category: "leadership",
+    categoryLabel: "Leadership & Projects",
+    organization: "SEA Bridge Institute of Entrepreneurship",
+    date: "March – August 2026",
+    status: "Fellow & Venture Analyst",
+    highlight: false,
+    description: "Contributed to GoPath (HRTech/talent mobility) and SOPet (AI veterinary platform) through cross-border market research and customer validation in Vietnam and Indonesia.",
+    evidenceUrl: "https://docs.google.com/document/d/1Ts7SENyC33i9tApoIyiL2rbTSwkBO15P1jdZGzC3quk/edit?usp=sharing"
+  },
+  {
+    id: "2030-youth-force-vietnam",
+    title: "Internal Affairs Assistant — 2030 Youth Force Vietnam",
+    category: "leadership",
+    categoryLabel: "Leadership & Projects",
+    organization: "2030 Youth Force Vietnam (UNDP Partner)",
+    date: "August 2022 – Present",
+    status: "Regional Coordinator",
+    highlight: false,
+    description: "Connected 5 departments and 4 regional projects. Designed agendas for two UN-endorsed advocacy summits promoting social inclusion for the LGBTI+ community and children with autism.",
+    evidenceUrl: "https://docs.google.com/document/d/1n8sOJCvj6xc4Myn6pKSoS0KjL4Z5NC4E9H7Y1iWGyN4/edit?tab=t.0"
+  },
+  {
+    id: "lions-club-surabaya",
+    title: "Charter Member — Lions Club Surabaya Wijaya",
+    category: "leadership",
+    categoryLabel: "Leadership & Projects",
+    organization: "Lions Clubs International, Surabaya, Indonesia",
+    date: "December 2024 – Present",
+    status: "Charter Member",
+    highlight: false,
+    description: "Organizes community meal support for blue-collar workers and vulnerable populations, championing civic engagement among international students in East Java.",
+    evidenceUrl: "https://docs.google.com/document/d/1KQbRNPeufEmWgP0GiS37YvXvv3HVcBp3A9kzLmgNQQs/edit?tab=t.0"
+  },
+
+  // Teaching & Professional Mentoring
+  {
+    id: "ales-english-teacher",
+    title: "English Instructor for Young Learners",
+    category: "teaching",
+    categoryLabel: "Teaching & Professional",
+    organization: "ALES International English School",
+    date: "2023",
+    status: "75 of 80 Students Achieved Goals",
+    highlight: false,
+    description: "Applied spaced repetition, active recall, and confidence-building frameworks to help 75 out of 80 young students achieve their certified language proficiency benchmarks.",
+    evidenceUrl: "https://ales.edu.vn/"
+  },
+  {
+    id: "dss-ielts-assistant",
+    title: "IELTS Teaching Assistant & Essay Mentor",
+    category: "teaching",
+    categoryLabel: "Teaching & Professional",
+    organization: "DSS Group Education",
+    date: "September 2023 – August 2024",
+    status: "15+ Adult IELTS Learners Guided",
+    highlight: false,
+    description: "Mentored 15+ adult applicants toward target IELTS scores with structured essay feedback, argument structuring, and speaking confidence training.",
+    evidenceUrl: "https://dsseducation.com/"
+  },
+  {
+    id: "gotutor-communication-teacher",
+    title: "Professional English Communication Coach",
+    category: "teaching",
+    categoryLabel: "Teaching & Professional",
+    organization: "GoTutor Vietnam",
+    date: "November 2023 – August 2024",
+    status: "10+ Office Professionals Coached",
+    highlight: false,
+    description: "Coached 10+ corporate professionals in international business presentations, email diplomacy, cross-cultural communication, and executive workplace English.",
+    evidenceUrl: "https://gotutor.vn/"
+  }
+];

@@ -1,0 +1,71 @@
+/* Design Tokens & Theme Variables for ScholarBridge by Brandon */
+:root {
+  /* Brand Color Palette */
+  --color-midnight-ink: #101D2C;
+  --color-deep-ocean-blue: #18364A;
+  --color-warm-ivory: #F7F3EB;
+  --color-paper-white: #FFFEFA;
+  --color-muted-ocean-teal: #4D817C;
+  --color-teal-dark: #37635F;
+  --color-teal-light: #6DA6A0;
+  --color-antique-copper: #B77A56;
+  --color-copper-dark: #8F5938;
+  --color-copper-light: #D49D7D;
+  --color-coral: #E85D36;
+  --color-coral-hover: #D04B25;
+  --color-coral-glow: rgba(232, 93, 54, 0.35);
+  --color-soft-slate: #687583;
+  --color-fine-border: #DED8CD;
+  --color-fine-border-dark: #22374B;
+  --color-dark-readable: #202A32;
+  --color-muted-text: #596773;
+  --color-black: #000000;
+
+  /* Typography */
+  --font-serif: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'Space Grotesk', ui-monospace, Menlo, Monaco, monospace;
+
+  /* Spacing Scale */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --space-4xl: 128px;
+
+  /* Layout Containers */
+  --container-max: 1280px;
+  --container-narrow: 960px;
+  --container-reading: 760px;
+  --header-height: 80px;
+
+  /* Elevations & Shadows */
+  --shadow-sm: 0 2px 8px rgba(16, 29, 44, 0.04);
+  --shadow-md: 0 6px 20px rgba(16, 29, 44, 0.08);
+  --shadow-lg: 0 12px 36px rgba(16, 29, 44, 0.12);
+  --shadow-editorial: 0 16px 40px -12px rgba(16, 29, 44, 0.18);
+
+  /* Border Radii */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 280ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 500ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Z-Index Hierarchy */
+  --z-canvas-sticky: 1;
+  --z-narrative-overlay: 2;
+  --z-header: 100;
+  --z-modal-backdrop: 200;
+  --z-modal-content: 210;
+  --z-toast: 300;
+}

@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScholarBridge by Brandon | International Scholarship & Youth Mentorship</title>
+  <meta name="description" content="Personal, student-centered scholarship mentorship platform by Tan Hoang (Brandon) Dinh. Helping ambitious students turn their experiences into meaningful applications for international scholarships and global opportunities.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/scholarbridge-logo.png">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/scroll-animation.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+</head>
+<body class="paper-texture">
+
+  <!-- ========================================================
+       1. SITE HEADER & NAVIGATION
+       ======================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="brand-link" aria-label="Tan Hoang Dinh Homepage">
+        <img src="assets/images/scholarbridge-logo.png" alt="ScholarBridge Logo" class="brand-logo-img">
+        <div class="brand-wordmark">
+          <span class="brand-title">Tan Hoang Dinh</span>
+          <span class="brand-subtitle">ScholarBridge</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero-scroll-experience" class="nav-link active">Home</a></li>
+          <li><a href="#founder-story" class="nav-link">About</a></li>
+          <li><a href="#mentorship" class="nav-link">Mentorship</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#resources" class="nav-link">Resources</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="#services" class="btn btn-sm btn-coral-pill" style="padding: 9px 22px; font-size: 0.8125rem;">Explore Mentorship</a>
+        <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="modal-backdrop" id="mobile-nav-drawer" style="align-items: flex-start; padding: 0;">
+    <div style="background: #0A101A; width: 100%; max-width: 320px; height: 100vh; padding: 32px 24px; color: #fff; display: flex; flex-direction: column; justify-content: space-between;">
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;">
+          <span style="font-family: var(--font-sans); font-size: 1.25rem; font-weight: 700; color: #fff;">Tan Hoang Dinh</span>
+          <button id="mobile-nav-close" style="background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer;">✕</button>
+        </div>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 20px; font-size: 1.05rem;">
+          <li><a href="#hero-scroll-experience" style="color: #fff;">Home</a></li>
+          <li><a href="#founder-story" style="color: #fff;">About</a></li>
+          <li><a href="#mentorship" style="color: #fff;">Mentorship</a></li>
+          <li><a href="#achievements" style="color: #fff;">Achievements</a></li>
+          <li><a href="#services" style="color: #fff;">Services</a></li>
+          <li><a href="#resources" style="color: #fff;">Resources</a></li>
+          <li><a href="#faq" style="color: #fff;">FAQ</a></li>
+          <li><a href="#contact" style="color: #fff;">Contact</a></li>
+        </ul>
+      </div>
+      <a href="#services" class="btn btn-coral-pill" style="width: 100%; justify-content: center;">Explore Mentorship</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================================================
+         2. SCROLL ANIMATION & EDITORIAL NARRATIVE EXPERIENCE
+         ======================================================== -->
+    <section id="hero-scroll-experience" class="scroll-experience" aria-label="Visual Story Scroll Experience">
+      <div class="scroll-canvas-sticky">
+        <canvas id="hero-canvas"></canvas>
+        <div class="canvas-overlay-scrim"></div>
+      </div>
+
+      <div class="scroll-narrative-container">
+        <div class="narrative-viewport">
+          
+          <!-- Chapter 1 (Frames 0 - 59) -->
+          <article class="narrative-chapter active" data-chapter="1">
+            <div class="hero-brand-name">
+              <span class="hero-name-white">Tan Hoang (Brandon)</span>
+              <span class="hero-name-coral">Dinh</span>
+            </div>
+            <h1 class="hero-main-headline">Your Story Deserves a Global Opportunity.</h1>
+            <p class="hero-subtext">Helping ambitious students turn their experiences into meaningful applications for international scholarships and global opportunities.</p>
+            <div class="hero-cta-buttons">
+              <a href="#services" class="btn btn-coral-pill">Explore Mentorship →</a>
+              <a href="#founder-story" class="btn btn-glass-pill">Discover My Story</a>
+            </div>
+          </article>
+
+          <!-- Chapter 2 (Frames 60 - 119) -->
+          <article class="narrative-chapter" data-chapter="2">
+            <div class="hero-brand-name">
+              <span class="hero-name-white">Lived Experience</span>
+              <span class="hero-name-coral">• The Journey</span>
+            </div>
+            <h2 class="hero-main-headline">I know what it feels like to begin before you feel ready.</h2>
+            <p class="hero-subtext">Walking the path of searching, applying, receiving offers, navigating international opportunities, and building a future across borders.</p>
+            <div class="hero-pill-badges">
+              <span class="pill-badge">KNB Indonesian Govt Scholar</span>
+              <span class="pill-badge">1 of 30 Selected Globally</span>
+              <span class="pill-badge">3x Fulbright Admissions</span>
+            </div>
+          </article>
+
+          <!-- Chapter 3 (Frames 120 - 179) -->
+          <article class="narrative-chapter" data-chapter="3">
+            <div class="hero-brand-name">
+              <span class="hero-name-white">Documented Mentorship</span>
+              <span class="hero-name-coral">• Proven Impact</span>
+            </div>
+            <h2 class="hero-main-headline">Guidance that turns ideas into international action.</h2>
+            <p class="hero-subtext">Mentored Myanmar youth innovation team to win First Prize at Japan Youth Summit 2026. Vice Manager at UN Association Indonesia. Founder of Thalavina.</p>
+            <div class="hero-pill-badges">
+              <span class="pill-badge">First Prize • Japan Youth Summit 2026</span>
+              <span class="pill-badge">Project SHWEPHYYA</span>
+              <span class="pill-badge">SDG 11 & 14</span>
+            </div>
+          </article>
+
+          <!-- Chapter 4 (Frames 180 - 239) -->
+          <article class="narrative-chapter" data-chapter="4">
+            <div class="hero-brand-name">
+              <span class="hero-name-white">ScholarBridge</span>
+              <span class="hero-name-coral">by Brandon</span>
+            </div>
+            <h2 class="hero-main-headline">Your story deserves a place on the world stage.</h2>
+            <p class="hero-subtext">Grounded peer guidance with no agency sales tactics or fabricated promises. Turn your personal experiences into applications that open global doors.</p>
+            <div class="hero-cta-buttons">
+              <a href="#services" class="btn btn-coral-pill">Browse Services & Pricing →</a>
+              <a href="#mentorship" class="btn btn-glass-pill">Meet Your Mentor</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Bottom Bar matching the reference example -->
+      <div class="hero-bottom-bar">
+        <div class="hero-bottom-tags">ECONOMIC DEVELOPMENT • SUSTAINABILITY • YOUTH LEADERSHIP</div>
+        <div class="hero-scroll-indicator">
+          <span>SCROLL</span>
+          <span class="scroll-line"></span>
+        </div>
+      </div>
+
+      <!-- Sticky scroll progress HUD -->
+      <aside class="scroll-progress-sidebar" id="scroll-progress-sidebar" aria-label="Scroll Progress">
+        <div class="progress-track"><div class="progress-bar-fill" id="scroll-fill"></div></div>
+        <span class="progress-label" id="scroll-frame-num">FRAME 001 / 240</span>
+      </aside>
+    </section>
+
+    <!-- ========================================================
+         3. VERIFIED PROOF STRIP
+         ======================================================== -->
+    <section class="proof-strip" aria-label="Verified Credentials">
+      <div class="container">
+        <div class="proof-grid">
+          <div class="proof-item">
+            <span class="proof-icon">★</span>
+            <div class="proof-text">
+              <strong>KNB Indonesian Govt Scholar</strong>
+              Fully funded Economic Development, Universitas Wijaya Kusuma Surabaya.
+            </div>
+          </div>
+          <div class="proof-item">
+            <span class="proof-icon">★</span>
+            <div class="proof-text">
+              <strong>First Prize Mentor — JYS 2026</strong>
+              Mentored Myanmar team to win First Prize at Japan Youth Summit 2026.
+            </div>
+          </div>
+          <div class="proof-item">
+            <span class="proof-icon">★</span>
+            <div class="proof-text">
+              <strong>Founder of Thalavina</strong>
+              Vietnam–Indonesia youth initiative for ocean conservation & blue economy.
+            </div>
+          </div>
+          <div class="proof-item">
+            <span class="proof-icon">★</span>
+            <div class="proof-text">
+              <strong>UNA Indonesia Finance Lead</strong>
+              Vice Manager leading mentee sessions in fundraising & campaign execution.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4. FOUNDER STORY & PHILOSOPHY
+         ======================================================== -->
+    <section id="founder-story" class="section">
+      <div class="container">
+        <div class="founder-grid">
+          
+          <div class="founder-portrait-wrapper">
+            <div class="portrait-frame">
+              <img src="assets/images/brandon-portrait.png" alt="Tan Hoang (Brandon) Dinh holding the Vietnam national flag">
+              <div class="portrait-caption">
+                <strong>Tan Hoang (Brandon) Dinh</strong>
+                Founder, ScholarBridge • KNB Indonesian Govt Scholar • Economic Development, Surabaya
+              </div>
+            </div>
+          </div>
+
+          <div class="founder-narrative">
+            <span class="editorial-kicker">FOUNDER STORY</span>
+            <h2 class="section-title">I know what it feels like to begin before you feel ready.</h2>
+            
+            <blockquote class="story-lead-quote">
+              “I do not believe every student needs the same application strategy. Your experiences, goals, resources, and circumstances are different. My role is to help you identify your strengths, understand the opportunities available, and communicate your story honestly and effectively.”
+            </blockquote>
+
+            <p style="color: var(--color-muted-text);">
+              My journey began in the mist of Da Lat, Vietnam, as a high school Literature student at Thang Long High School for the Gifted. I spent years navigating academic competitions, organizing grassroots youth initiatives, and wondering whether a student without generational privilege could ever represent their community on international stages.
+            </p>
+            <p style="color: var(--color-muted-text);">
+              Through relentless research, meticulous application drafting, and building genuine cross-border connections, I unlocked multiple global admissions and scholarships: triple admission to Fulbright University Vietnam, offers from the University of Toronto, Samsun University in Türkiye, Kazakhstan, and India, advancing as a top-32 semi-finalist for Japan's MEXT Scholarship, and ultimately earning the prestigious Indonesian Government KNB Scholarship in Economic Development.
+            </p>
+            <p style="color: var(--color-muted-text);">
+              ScholarBridge was born from this exact conviction: an opportunity can change a life, but behind every application is a person whose story deserves to be understood.
+            </p>
+
+            <!-- Visual Journey Timeline -->
+            <div class="journey-timeline">
+              <div class="timeline-entry">
+                <div class="timeline-node"></div>
+                <div class="timeline-year">2019 – 2022</div>
+                <h4 class="timeline-title">Literature Studies & Provincial Academic Awards</h4>
+                <p class="timeline-desc">Thang Long High School for the Gifted, Da Lat. Consecutive provincial literature prizes and founding youth literature initiatives.</p>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-node"></div>
+                <div class="timeline-year">2021 – 2023</div>
+                <h4 class="timeline-title">Youth Leadership & Education Access</h4>
+                <p class="timeline-desc">Virtual Education Expo 2022 (1,000+ youth across 17 provinces), 2030 Youth Force Vietnam, and online scholarship fairs.</p>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-node"></div>
+                <div class="timeline-year">2022</div>
+                <h4 class="timeline-title">Fulbright University Vietnam Triple Admission</h4>
+                <p class="timeline-desc">Three consecutive admissions and recognition for community impact and intellectual curiosity.</p>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-node"></div>
+                <div class="timeline-year">2024</div>
+                <h4 class="timeline-title">Global Scholarship Milestone & KNB Award</h4>
+                <p class="timeline-desc">Awarded KNB Indonesian Government Scholarship for Economic Development (1 of 30 globally). Undergraduate offers from Toronto, Samsun, and Kazakh government.</p>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-node"></div>
+                <div class="timeline-year">2024 – PRESENT</div>
+                <h4 class="timeline-title">Undergraduate Study in Surabaya & Regional Action</h4>
+                <p class="timeline-desc">Universitas Wijaya Kusuma Surabaya. UNA Indonesia Finance Lead, sea turtle conservation, and ASEAN youth dialogues.</p>
+              </div>
+              <div class="timeline-entry">
+                <div class="timeline-node"></div>
+                <div class="timeline-year">2026</div>
+                <h4 class="timeline-title">Thalavina & First Prize Mentorship at JYS 2026</h4>
+                <p class="timeline-desc">Mentored Myanmar team to win First Prize at Japan Youth Summit 2026; founded Thalavina for ocean conservation & coastal livelihoods.</p>
+              </div>
+            </div>
+
+            <!-- Verified Metrics Counters -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 32px; padding: 20px; background: #FFFEFA; border: 1px solid #DED8CD; border-radius: 4px;">
+              <div>
+                <span class="count-up-number" data-target="500" data-suffix="+" style="font-family: var(--font-serif); font-size: 1.85rem; color: #B77A56; font-weight: bold; display: block; line-height: 1;">0+</span>
+                <span style="font-family: var(--font-mono); font-size: 0.6875rem; text-transform: uppercase; color: #596773; letter-spacing: 0.05em;">Thalavina Reach</span>
+              </div>
+              <div>
+                <span class="count-up-number" data-target="1000" data-suffix="+" style="font-family: var(--font-serif); font-size: 1.85rem; color: #37635F; font-weight: bold; display: block; line-height: 1;">0+</span>
+                <span style="font-family: var(--font-mono); font-size: 0.6875rem; text-transform: uppercase; color: #596773; letter-spacing: 0.05em;">Youth Reached (Expo)</span>
+              </div>
+              <div>
+                <span class="count-up-number" data-target="50" data-suffix="+" style="font-family: var(--font-serif); font-size: 1.85rem; color: #101D2C; font-weight: bold; display: block; line-height: 1;">0+</span>
+                <span style="font-family: var(--font-mono); font-size: 0.6875rem; text-transform: uppercase; color: #596773; letter-spacing: 0.05em;">Staff & Volunteers Led</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         5. MENTORSHIP HUB & DOCUMENTED CASE STUDIES
+         ======================================================== -->
+    <section id="mentorship" class="section section-dark paper-texture">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="editorial-kicker" style="color: var(--color-copper-light);">MENTORSHIP ARCHIVE</span>
+          <h2 class="section-title">Guidance that turns ideas into action.</h2>
+          <p class="section-subtitle">
+            “Mentorship is not about writing someone else's story for them. It is about asking better questions, creating a clearer plan, and helping a person develop the confidence and skills to move forward.”
+          </p>
+        </div>
+
+        <!-- Case Study 1: Myanmar Innovation Team -->
+        <article class="case-study-card" style="color: var(--color-dark-readable);">
+          <div class="case-study-header">
+            <div>
+              <span class="editorial-tag copper">CASE STUDY 01 • DOCUMENTED RESULT</span>
+              <h3 class="case-study-title" style="margin-top: 8px;">From an Urban Waste Challenge to an Award-Winning Youth Proposal</h3>
+              <p style="font-size: 0.9375rem; color: var(--color-muted-text); margin-top: 4px;">
+                <strong>Role:</strong> Mentor, Youth Break the Boundaries Foundation • <strong>Context:</strong> Myanmar • <strong>Period:</strong> 1 April – 1 May 2026
+              </p>
+            </div>
+            <span style="background: #ECFDF5; color: #065F46; padding: 6px 14px; border-radius: 9999px; font-weight: 700; font-family: var(--font-mono); font-size: 0.8125rem; border: 1px solid #A7F3D0;">
+              FIRST PRIZE WINNER
+            </span>
+          </div>
+
+          <p style="font-size: 0.9375rem; color: var(--color-dark-readable); line-height: 1.6;">
+            The project addressed Yangon's severe urban waste crisis through <strong>Project SHWEPHYYA</strong>, a youth-led circular waste-management proposal. As their dedicated mentor, I worked with the Myanmar team across project framing, connecting plastic recovery mechanics with photobioreactors, and aligning their proposal rigorously with <strong>SDG 11 (Sustainable Cities & Communities)</strong>.
+          </p>
+
+          <!-- 6-Step Visual Flow -->
+          <div class="project-flow-track">
+            <div class="flow-step">
+              <span class="flow-step-num">STEP 01</span>
+              <span class="flow-step-label">Urban Waste Challenge</span>
+            </div>
+            <div class="flow-step">
+              <span class="flow-step-num">STEP 02</span>
+              <span class="flow-step-label">Problem Framing</span>
+            </div>
+            <div class="flow-step">
+              <span class="flow-step-num">STEP 03</span>
+              <span class="flow-step-label">Circular Solution Design</span>
+            </div>
+            <div class="flow-step">
+              <span class="flow-step-num">STEP 04</span>
+              <span class="flow-step-label">SDG 11 Alignment</span>
+            </div>
+            <div class="flow-step">
+              <span class="flow-step-num">STEP 05</span>
+              <span class="flow-step-label">Proposal Development</span>
+            </div>
+            <div class="flow-step">
+              <span class="flow-step-num">STEP 06</span>
+              <span class="flow-step-label">First Prize at JYS 2026</span>
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-top: 1px solid #DED8CD; padding-top: 16px;">
+            <span style="font-size: 0.8125rem; color: #596773; font-style: italic;">
+              *Explanatory project flow reflecting verified team mentorship contribution.
+            </span>
+            <a href="https://drive.google.com/file/d/1K5xTL2POI-vcZFP3XVFP76yT6nQ8UdF9/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+              View Verified Outcome Certificate ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- Case Study 2: UN Association Indonesia -->
+        <article class="case-study-card" style="color: var(--color-dark-readable);">
+          <div class="case-study-header">
+            <div>
+              <span class="editorial-tag">CASE STUDY 02 • ORGANIZATIONAL MENTORING</span>
+              <h3 class="case-study-title" style="margin-top: 8px;">Helping Young People Turn Fundraising Ideas into Practical Plans</h3>
+              <p style="font-size: 0.9375rem; color: var(--color-muted-text); margin-top: 4px;">
+                <strong>Role:</strong> Vice Manager, Finance Team, United Nations Association Indonesia (PBB Indonesia) • <strong>Period:</strong> 1 August 2025 – Present
+              </p>
+            </div>
+            <span style="background: #EFF6FF; color: #1E40AF; padding: 6px 14px; border-radius: 9999px; font-weight: 700; font-family: var(--font-mono); font-size: 0.8125rem; border: 1px solid #BFDBFE;">
+              ACTIVE MENTORSHIP
+            </span>
+          </div>
+
+          <p style="font-size: 0.9375rem; color: var(--color-dark-readable); line-height: 1.6;">
+            Leading weekly mentor sessions that guide youth mentees in financial feasibility modeling, merchandise campaign execution, and resource allocation. We focus on structuring fundraising concepts, communicating financial needs with clarity, and connecting organizational missions with sustainable funding mechanisms.
+          </p>
+          <p style="font-size: 0.8125rem; color: #687583; font-style: italic; margin-top: 8px;">
+            *Describes areas connected to documented responsibilities at PBB Indonesia. Does not imply official endorsement by the United Nations Secretariat.
+          </p>
+        </article>
+
+        <!-- Interactive 6-Stage Mentorship Journey -->
+        <div style="margin-top: 48px;">
+          <h3 style="color: var(--color-paper-white); font-size: 1.5rem; margin-bottom: 20px;">The 6-Stage Mentorship Framework</h3>
+          
+          <div class="stages-nav">
+            <button class="stage-tab-btn active" data-stage="stage-1">01. Discover</button>
+            <button class="stage-tab-btn" data-stage="stage-2">02. Strategize</button>
+            <button class="stage-tab-btn" data-stage="stage-3">03. Develop</button>
+            <button class="stage-tab-btn" data-stage="stage-4">04. Review</button>
+            <button class="stage-tab-btn" data-stage="stage-5">05. Prepare</button>
+            <button class="stage-tab-btn" data-stage="stage-6">06. Reflect</button>
+          </div>
+
+          <div class="stage-panel active" id="stage-1" style="color: var(--color-dark-readable);">
+            <h4 style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--color-midnight-ink); margin-bottom: 8px;">Stage 1: Discover</h4>
+            <p style="color: var(--color-muted-text); margin-bottom: 12px;">We take time to deeply understand your background, personal heritage, values, academic interests, financial constraints, and target international opportunities.</p>
+            <p style="font-size: 0.875rem; color: var(--color-dark-readable);"><strong>Focus:</strong> Root motivations, identifying core stories, and establishing honest self-awareness.</p>
+          </div>
+
+          <div class="stage-panel" id="stage-2" style="color: var(--color-dark-readable);">
+            <h4 style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--color-midnight-ink); margin-bottom: 8px;">Stage 2: Strategize</h4>
+            <p style="color: var(--color-muted-text); margin-bottom: 12px;">We map verified scholarships and youth programmes matching your profile, breaking down eligibility requirements, selection rubrics, and deadlines into a prioritized action calendar.</p>
+            <p style="font-size: 0.875rem; color: var(--color-dark-readable);"><strong>Focus:</strong> Competitive positioning, risk management, and selecting the right opportunities.</p>
+          </div>
+
+          <div class="stage-panel" id="stage-3" style="color: var(--color-dark-readable);">
+            <h4 style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--color-midnight-ink); margin-bottom: 8px;">Stage 3: Develop</h4>
+            <p style="color: var(--color-muted-text); margin-bottom: 12px;">We construct your CV restructuring, activity profile presentation, personal statement narrative, motivation letter, and scholarship prompts from the ground up.</p>
+            <p style="font-size: 0.875rem; color: var(--color-dark-readable);"><strong>Focus:</strong> Converting everyday experiences into high-impact, authentic international framing.</p>
+          </div>
+
+          <div class="stage-panel" id="stage-4" style="color: var(--color-dark-readable);">
+            <h4 style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--color-midnight-ink); margin-bottom: 8px;">Stage 4: Review</h4>
+            <p style="color: var(--color-muted-text); margin-bottom: 12px;">We conduct multi-round, rigorous structural feedback on argument flow, paragraph hooks, evidence clarity, sentence precision, and alignment with the committee's evaluation rubric.</p>
+            <p style="font-size: 0.875rem; color: var(--color-dark-readable);"><strong>Focus:</strong> Eliminating cliches, sharpening transitions, and ensuring emotional resonance.</p>
+          </div>
+
+          <div class="stage-panel" id="stage-5" style="color: var(--color-dark-readable);">
+            <h4 style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--color-midnight-ink); margin-bottom: 8px;">Stage 5: Prepare</h4>
+            <p style="color: var(--color-muted-text); margin-bottom: 12px;">For shortlisted candidates: realistic interview simulations, answering curveball questions, body language, and mastering the spontaneous articulation of your mission.</p>
+            <p style="font-size: 0.875rem; color: var(--color-dark-readable);"><strong>Focus:</strong> Verbal poise, structural STAR responses, and conversational confidence.</p>
+          </div>
+
+          <div class="stage-panel" id="stage-6" style="color: var(--color-dark-readable);">
+            <h4 style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--color-midnight-ink); margin-bottom: 8px;">Stage 6: Reflect</h4>
+            <p style="color: var(--color-muted-text); margin-bottom: 12px;">We review what was learned, consolidate your application portfolio for future opportunities, celebrate growth, and establish a practical roadmap for pre-departure or next cycle.</p>
+            <p style="font-size: 0.875rem; color: var(--color-dark-readable);"><strong>Focus:</strong> Long-term academic ownership and sustainable momentum across borders.</p>
+          </div>
+
+          <p style="font-size: 0.8125rem; color: #8C9DAE; margin-top: 12px; font-style: italic;">
+            *Note: Specific packages include targeted stages. Inclusions are detailed transparently in the service catalogue.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         6. VERIFIED ACHIEVEMENTS ARCHIVE (30+ ENTRIES)
+         ======================================================== -->
+    <section id="achievements" class="section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="editorial-kicker">DOCUMENTED ARCHIVE</span>
+          <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px;">
+            <div>
+              <h2 class="section-title">The Complete Achievement Record</h2>
+              <p class="section-subtitle">
+                Every scholarship, competition award, international conference, leadership initiative, and teaching role documented from my CV, complete with verifiable official evidence links.
+              </p>
+            </div>
+            <span class="editorial-tag copper" id="achievements-count">30+ Verified Entries</span>
+          </div>
+        </div>
+
+        <!-- Filter & Search Controls -->
+        <div class="achievements-controls">
+          <div class="achievements-search-wrapper">
+            <input type="text" id="achievements-search" class="achievements-search-input" placeholder="Search by award, university, topic, or keyword...">
+          </div>
+
+          <div class="category-filter-bar">
+            <button class="category-pill-btn active" data-category="all">All Archives</button>
+            <button class="category-pill-btn" data-category="scholarships">Scholarships & Admissions</button>
+            <button class="category-pill-btn" data-category="awards">Academic Awards</button>
+            <button class="category-pill-btn" data-category="programmes">International Programmes</button>
+            <button class="category-pill-btn" data-category="leadership">Leadership & Projects</button>
+            <button class="category-pill-btn" data-category="mentorship">Mentorship</button>
+            <button class="category-pill-btn" data-category="teaching">Teaching & Professional</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Card Grid -->
+        <div class="achievements-grid" id="achievements-grid">
+          <!-- Populated dynamically via js/achievements-filter.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         7. INTRODUCTION VIDEO SECTION
+         ======================================================== -->
+    <section class="section section-dark paper-texture" style="padding: 64px 0;">
+      <div class="container">
+        
+        <div class="section-header text-center" style="margin-bottom: 32px;">
+          <span class="editorial-kicker" style="color: var(--color-copper-light);">VIDEO INTRODUCTION</span>
+          <h2 class="section-title">A little about the person behind the platform.</h2>
+          <p class="section-subtitle">
+            An introduction to my journey, how I approach mentorship, and what you can expect when working together.
+          </p>
+        </div>
+
+        <div class="video-frame-container">
+          <img src="assets/images/editorial-desk.jpg" alt="Atmospheric study desk with open journals" class="video-poster-img">
+          
+          <div class="video-placeholder-ui">
+            <button class="video-play-btn" id="video-play-btn" aria-label="Play Introduction Video">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            </button>
+            <h4 style="font-family: var(--font-serif); font-size: 1.35rem; margin-bottom: 6px;">Introduction Video Upcoming</h4>
+            <p style="font-size: 0.8125rem; color: #D6DEE5; max-width: 460px; margin: 0 auto;">
+              Personal video introduction is in production. Central configuration variable <code>founderVideoUrl</code> in <code>js/main.js</code> is ready to render any YouTube, Vimeo, or local embed.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         8. SERVICE CATALOGUE & INTERACTIVE PACKAGE BUILDER
+         ======================================================== -->
+    <section id="services" class="section">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="editorial-kicker">SERVICES & PRICING</span>
+          <h2 class="section-title">Transparent, Affordable Mentorship Packages</h2>
+          <p class="section-subtitle">
+            Accessible pricing designed for high school and undergraduate students. Focused strictly on short-term international programmes and undergraduate scholarships.
+          </p>
+        </div>
+
+        <!-- Interactive Need Selector -->
+        <div style="max-width: 560px; margin: 0 auto 36px; text-align: center;">
+          <label for="need-selector" style="font-family: var(--font-mono); font-size: 0.8125rem; font-weight: 700; color: #101D2C; display: block; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.08em;">
+            What is your current mentorship goal?
+          </label>
+          <select id="need-selector" class="form-select" style="text-align: center; font-weight: 500;">
+            <option value="">Select your goal to find the best package...</option>
+            <option value="exploring">I am exploring international scholarship opportunities</option>
+            <option value="short-term">I am applying for a short-term youth summit or conference</option>
+            <option value="undergraduate">I am preparing an undergraduate scholarship application</option>
+            <option value="cv-essays">I need focused review for my CV and essays</option>
+            <option value="interview">I need interview preparation and mock simulation</option>
+            <option value="complete">I want comprehensive, end-to-end mentorship</option>
+          </select>
+        </div>
+
+        <!-- Catalog Tabs Switcher -->
+        <div class="catalog-tabs">
+          <button class="catalog-tab-btn active" data-view="packages-view">Curated Packages</button>
+          <button class="catalog-tab-btn" data-view="bundles-view">Value Bundles</button>
+          <button class="catalog-tab-btn" data-view="services-view">Individual Services ($5–$20)</button>
+        </div>
+
+        <!-- View 1: Packages -->
+        <div class="catalog-view" id="packages-view" style="display: grid;">
+          <div class="pricing-grid" id="packages-container">
+            <!-- Rendered by js/package-builder.js -->
+          </div>
+        </div>
+
+        <!-- View 2: Bundles -->
+        <div class="catalog-view" id="bundles-view" style="display: none; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 48px;">
+          <!-- Rendered by js/package-builder.js -->
+        </div>
+
+        <!-- View 3: Individual Services -->
+        <div class="catalog-view" id="services-view" style="display: none; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-bottom: 48px;">
+          <!-- Rendered by js/package-builder.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         9. GATED MENTEE REGISTRATION & CONTACT
+         ======================================================== -->
+    <section id="contact" class="section section-dark paper-texture">
+      <div class="container container-reading" id="mentee-registration-section">
+        
+        <div class="section-header text-center">
+          <span class="editorial-kicker" style="color: var(--color-copper-light);">REGISTRATION PORTAL</span>
+          <h2 class="section-title">Begin Your Mentorship</h2>
+          <p class="section-subtitle">
+            To ensure focused attention and dedicated support for every student, paid mentee registration is verified post-checkout.
+          </p>
+        </div>
+
+        <!-- Locked Banner (Before Payment) -->
+        <div class="editorial-card" id="registration-locked-banner" style="color: var(--color-dark-readable); text-align: center; padding: 40px 24px;">
+          <div style="width: 52px; height: 52px; border-radius: 50%; background: rgba(183, 122, 86, 0.15); color: #B77A56; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.5rem;">
+            🔒
+          </div>
+          <h3 style="font-family: var(--font-serif); font-size: 1.35rem; color: #101D2C; margin-bottom: 8px;">Mentee Registration is Gated</h3>
+          <p style="font-size: 0.9375rem; color: #596773; max-width: 480px; margin: 0 auto 24px;">
+            Please select your preferred package above to initiate your order reference and unlock registration. If you already completed a bank transfer, enter your order reference below.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+            <a href="#services" class="btn btn-copper">Browse Packages</a>
+            <button class="btn btn-secondary" onclick="const ref = prompt('Enter your 6-digit Order Reference (e.g. SB-2026-XXXXXX):'); if(ref) { unlockMenteeRegistration({ orderRef: ref, name: 'Verified Mentee Package', price: 'Verified' }); }">
+              I Already Have an Order Reference
+            </button>
+          </div>
+        </div>
+
+        <!-- Unlocked Form (Active Post-Verification) -->
+        <div class="form-card" id="registration-active-form" style="display: none; color: var(--color-dark-readable);">
+          <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #DED8CD; padding-bottom: 16px; margin-bottom: 24px;">
+            <div>
+              <span class="editorial-tag copper">VERIFIED MENTEE REGISTRATION</span>
+              <h3 style="font-family: var(--font-serif); font-size: 1.35rem; margin-top: 6px;">Application Profile Submission</h3>
+            </div>
+            <div style="text-align: right;">
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: #596773;">ORDER REF:</span>
+              <strong style="display: block; font-family: var(--font-mono); color: #B77A56;" id="reg-order-ref-display">SB-2026-000000</strong>
+            </div>
+          </div>
+
+          <form id="mentee-registration-form">
+            <input type="hidden" name="order_reference" id="form-order-ref" value="">
+            <input type="hidden" name="selected_service" id="form-selected-package" value="">
+            <input type="hidden" name="_subject" value="New Mentee Registration — ScholarBridge by Brandon">
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label">Full Name <span class="required">*</span></label>
+                <input type="text" name="name" class="form-input" required placeholder="e.g. Linh Nguyen">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Email Address <span class="required">*</span></label>
+                <input type="email" name="email" class="form-input" required placeholder="your.name@gmail.com">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Country of Residence <span class="required">*</span></label>
+                <input type="text" name="country" class="form-input" required placeholder="e.g. Vietnam, Indonesia, Myanmar">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Current Education Level <span class="required">*</span></label>
+                <select name="education_level" class="form-select" required>
+                  <option value="High School Student">High School Student</option>
+                  <option value="Recent High School Graduate">Recent High School Graduate (Gap Year)</option>
+                  <option value="Undergraduate Student">Undergraduate Student</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Target Countries <span class="required">*</span></label>
+                <input type="text" name="target_countries" class="form-input" required placeholder="e.g. Indonesia, Japan, Canada, Singapore">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Type of Opportunity <span class="required">*</span></label>
+                <select name="opportunity_type" class="form-select" required>
+                  <option value="Undergraduate University Scholarship">Undergraduate University Scholarship</option>
+                  <option value="Government Scholarship (KNB, MEXT, etc.)">Government Scholarship (KNB, MEXT, etc.)</option>
+                  <option value="Short-Term International Programme">Short-Term International Youth Summit / Summer School</option>
+                  <option value="Application Document Support">Application Document Support (CV / Personal Statement)</option>
+                  <option value="Interview Preparation">Interview Preparation</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label class="form-label">Name of Specific Scholarship or Programme (if known)</label>
+                <input type="text" name="target_scholarship_name" class="form-input" placeholder="e.g. KNB Scholarship, Japan Youth Summit, ASEAN Symposium">
+              </div>
+
+              <div class="form-group full-width">
+                <label class="form-label">Main Questions or Areas Where You Need the Most Support <span class="required">*</span></label>
+                <textarea name="support_needed" class="form-textarea" required placeholder="Tell me about your background, target deadlines, and what you would like to achieve through our sessions..."></textarea>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Preferred Consultation Format</label>
+                <select name="consultation_format" class="form-select">
+                  <option value="Google Meet Video Call">Google Meet Video Call</option>
+                  <option value="Zoom Video Call">Zoom Video Call</option>
+                  <option value="Written Feedback Only">Written Feedback Only (for Document Reviews)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Timezone & Availability Window</label>
+                <input type="text" name="timezone_availability" class="form-input" placeholder="e.g. GMT+7, Evenings or Weekends">
+              </div>
+
+              <div class="form-group full-width">
+                <label class="form-label">Optional Document or Portfolio Link (Google Drive, LinkedIn)</label>
+                <input type="url" name="document_link" class="form-input" placeholder="https://drive.google.com/... (Ensure viewing access is enabled)">
+              </div>
+
+              <div class="form-group full-width">
+                <label class="form-checkbox-label">
+                  <input type="checkbox" name="privacy_consent" required>
+                  <span>I agree that my submitted information and application drafts will be reviewed solely by Brandon for the purpose of mentorship, in accordance with the ScholarBridge Privacy Notice.</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-status-alert" id="reg-form-alert"></div>
+
+            <div style="margin-top: 24px; display: flex; justify-content: flex-end;">
+              <button type="submit" class="btn btn-copper">Submit Mentee Registration</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- General Inquiries Form -->
+        <div style="margin-top: 64px; border-top: 1px solid rgba(222, 216, 205, 0.15); padding-top: 48px;">
+          <div class="section-header text-center" style="margin-bottom: 24px;">
+            <h3 style="color: var(--color-paper-white); font-size: 1.35rem;">Have a Question Before Choosing a Package?</h3>
+            <p style="font-size: 0.875rem; color: #8C9DAE;">Send a general inquiry directly to Brandon. No purchase required.</p>
+          </div>
+
+          <form id="general-contact-form" style="max-width: 580px; margin: 0 auto;">
+            <input type="hidden" name="_subject" value="General Inquiry — ScholarBridge by Brandon">
+            <div style="display: flex; flex-direction: column; gap: 14px;">
+              <input type="text" name="name" class="form-input" required placeholder="Your Name" style="background: rgba(255,255,255,0.06); color: #fff; border-color: rgba(255,255,255,0.2);">
+              <input type="email" name="email" class="form-input" required placeholder="Your Email Address" style="background: rgba(255,255,255,0.06); color: #fff; border-color: rgba(255,255,255,0.2);">
+              <textarea name="message" class="form-textarea" required placeholder="How can I assist your scholarship exploration?" style="background: rgba(255,255,255,0.06); color: #fff; border-color: rgba(255,255,255,0.2); min-height: 90px;"></textarea>
+              <div class="form-status-alert" id="general-form-alert"></div>
+              <button type="submit" class="btn btn-outline-white" style="align-self: flex-start;">Send General Inquiry</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         10. PRACTICAL RESOURCES & FAQ
+         ======================================================== -->
+    <section id="resources" class="section">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="editorial-kicker">PRACTICAL GUIDES</span>
+          <h2 class="section-title">Scholarship Insights & Resource Library</h2>
+          <p class="section-subtitle">
+            Curated frameworks, essay techniques, and peer advice to support your independent preparation.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px; margin-bottom: 72px;" id="resources-grid">
+          <!-- Rendered by js/main.js -->
+        </div>
+
+        <!-- FAQ Section -->
+        <div id="faq" style="border-top: 1px solid #DED8CD; padding-top: 64px;">
+          <div class="section-header text-center">
+            <span class="editorial-kicker">FREQUENTLY ASKED QUESTIONS</span>
+            <h2 class="section-title">Clear, Honest Answers</h2>
+            <p class="section-subtitle">
+              Everything you need to know about our peer mentorship scope, refund policies, and how we work together.
+            </p>
+          </div>
+
+          <div class="faq-accordion-list" id="faq-accordion-list">
+            <!-- Rendered by js/main.js -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       11. EDITORIAL FOOTER
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        
+        <div>
+          <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+            <img src="assets/images/scholarbridge-logo.png" alt="ScholarBridge Logo" style="width: 40px; height: 40px; border-radius: 50%;">
+            <span style="font-family: var(--font-serif); font-size: 1.35rem; color: #fff;">ScholarBridge by Brandon</span>
+          </div>
+          <p class="footer-brand-desc">
+            Your Story. Your Scholarship. Your Future. Helping ambitious students turn their experiences into meaningful applications for international opportunities.
+          </p>
+          <p style="font-size: 0.8125rem; color: #8C9DAE;">
+            Direct Contact: <a href="mailto:dinhtanhoang2309@gmail.com" style="color: var(--color-copper-light);">dinhtanhoang2309@gmail.com</a>
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Platform</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hero-scroll-experience">The Journey</a></li>
+            <li><a href="#founder-story">Founder Story</a></li>
+            <li><a href="#mentorship">Mentorship Hub</a></li>
+            <li><a href="#achievements">Achievements Archive</a></li>
+            <li><a href="#services">Services & Pricing</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Public Links</h4>
+          <ul class="footer-nav-list">
+            <li><a href="https://dinhtanhoang2309.github.io/tanhoangdinh-portfolio/" target="_blank" rel="noopener">Personal Portfolio ↗</a></li>
+            <li><a href="https://dinhtanhoang2309.github.io/THALAVINA-WEB/" target="_blank" rel="noopener">Thalavina Initiative ↗</a></li>
+            <li><a href="https://www.linkedin.com/in/tan-hoang-dinh-59a07a325/" target="_blank" rel="noopener">LinkedIn Profile ↗</a></li>
+            <li><a href="https://www.instagram.com/ohateed/" target="_blank" rel="noopener">Personal Instagram ↗</a></li>
+            <li><a href="https://worldoceanday.org/youth-council/tan-hoang-dinh/" target="_blank" rel="noopener">World Ocean Day Council ↗</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Trust & Scope</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#" data-policy="privacy">Privacy Notice</a></li>
+            <li><a href="#" data-policy="terms">Terms of Service</a></li>
+            <li><a href="#" data-policy="refund">Cancellation & Refund Policy</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="footer-disclaimer">
+          <strong>Scope Disclaimer:</strong> ScholarBridge by Brandon is a peer-to-peer student mentorship practice. We do not provide Master's or PhD consulting. We make no guarantees of scholarship awards, admissions, or visa issuances. Selection decisions reside exclusively with official scholarship committees and university admissions offices.
+        </p>
+        <p>© 2026 ScholarBridge by Brandon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       12. CHECKOUT & PAYMENT MODAL
+       ======================================================== -->
+  <div class="modal-backdrop" id="checkout-modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">Checkout & Payment Instructions</h3>
+        <button class="modal-close-btn" id="checkout-modal-close" aria-label="Close Modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+        
+        <!-- Step 1: Bank Transfer Instructions -->
+        <div id="payment-instructions-step">
+          <div style="background: #F7F3EB; padding: 16px; border-radius: 4px; border-left: 3px solid #B77A56; margin-bottom: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+              <span style="font-family: var(--font-serif); font-size: 1.25rem; color: #101D2C;" id="checkout-item-name">Selected Package</span>
+              <strong style="font-family: var(--font-serif); font-size: 1.5rem; color: #B77A56;" id="checkout-item-price">$0 USD</strong>
+            </div>
+            <div style="margin-top: 8px; font-family: var(--font-mono); font-size: 0.8125rem; color: #596773;">
+              Order Reference: <strong style="color: #101D2C;" id="checkout-order-ref">SB-2026-000000</strong>
+            </div>
+          </div>
+
+          <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: #101D2C; margin-bottom: 12px;">International Bank Transfer (BCA)</h4>
+          <p style="font-size: 0.875rem; color: #596773; line-height: 1.5; margin-bottom: 16px;">
+            To keep peer mentorship affordable across Southeast Asia and internationally, payments are handled directly through Bank Central Asia (BCA). Please transfer the exact amount and include your Order Reference in the transaction note.
+          </p>
+
+          <div style="background: #FFFEFA; border: 1px solid #DED8CD; border-radius: 4px; padding: 14px; font-size: 0.875rem; display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px;">
+            <div><strong>Account Holder:</strong> Tan Hoang DINH</div>
+            <div><strong>Bank:</strong> Bank Central Asia (BCA), Indonesia</div>
+            <div><strong>Account Number:</strong> <code style="background: #F7F3EB; padding: 2px 6px; font-weight: bold;">5379413109186509</code></div>
+            <div><strong>SWIFT / BIC:</strong> <code>CENAIDJA</code></div>
+            <div><strong>Location:</strong> Surabaya, East Java, Indonesia</div>
+            <div><strong>Transfer Note / Memo:</strong> <span style="color: #B77A56; font-weight: bold;" id="checkout-ref-note">SB-2026-000000</span></div>
+          </div>
+
+          <div style="border-top: 1px solid #DED8CD; padding-top: 16px;">
+            <label class="form-label" style="margin-bottom: 6px;">Sender Account Name (for payment reconciliation) <span class="required">*</span></label>
+            <input type="text" id="sender-name-input" class="form-input" placeholder="Name on the bank account used to transfer" style="margin-bottom: 12px;">
+
+            <label class="form-label" style="margin-bottom: 6px;">Transaction / Reference Number (optional)</label>
+            <input type="text" id="tx-ref-input" class="form-input" placeholder="e.g. BCA Ref # / Bank Wire confirmation number">
+          </div>
+        </div>
+
+        <!-- Step 2: Verification Pending & Unlocked -->
+        <div id="payment-verification-step" style="display: none; text-align: center; padding: 24px 8px;">
+          <div style="display: inline-block; padding: 6px 16px; border-radius: 9999px; font-family: var(--font-mono); font-size: 0.8125rem; font-weight: 700; margin-bottom: 16px;" id="order-status-badge">
+            Processing Verification...
+          </div>
+          <h4 style="font-family: var(--font-serif); font-size: 1.35rem; color: #101D2C; margin-bottom: 8px;">Transfer Notification Received</h4>
+          <p style="font-size: 0.875rem; color: #596773; max-width: 460px; margin: 0 auto 24px; line-height: 1.55;">
+            Thank you for submitting your transfer details. Your order reference has been logged. You may now proceed directly to complete your Mentee Registration profile.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-copper" id="confirm-transfer-btn">I Have Completed the Transfer</button>
+        <button class="btn btn-primary" id="proceed-to-registration-btn" style="display: none;">Proceed to Mentee Registration →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       13. POLICY MODAL (PRIVACY / TERMS / REFUND)
+       ======================================================== -->
+  <div class="modal-backdrop" id="policy-modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="policy-modal-title">Policy Title</h3>
+        <button class="modal-close-btn" id="policy-modal-close" aria-label="Close Modal">✕</button>
+      </div>
+      <div class="modal-body" id="policy-modal-content" style="font-size: 0.9375rem; line-height: 1.6; color: var(--color-dark-readable);">
+        <!-- Policy content populated dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container">
+    <div class="toast" id="site-toast">Notification Message</div>
+  </div>
+
+  <!-- Application Entry Point -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
